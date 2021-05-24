@@ -1,0 +1,142 @@
+li {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0px -4px 12px 1px #000000;
+    transition: all 0.3s;
+}
+
+.nav:hover {
+    box-shadow: 0px 3px 12px 1px #000000;
+}
+
+.logoBox {
+    width: 90px;
+    overflow: hidden;
+    height: 84%;
+    margin: 5px;
+    margin-right: 10rem;
+}
+
+.logoImage {
+    width: 100%;
+    height: 120%;
+}
+
+.searchBarContainer {
+    display: flex;
+    flex-grow: 1;
+    border-radius: 5px;
+    height: 36px;
+    align-items: center;
+}
+
+.searchBar {
+    width: 34%;
+    height: 40%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #686868;
+    transition: all 0.2s;
+    display: block;
+    margin-right: -35px;
+    padding-right: 32px;
+}
+
+.searchBarIcon {
+    width: 40px;
+    transition: all 0.2s;
+}
+
+.lists {
+    display: flex;
+    width: 35%;
+    margin-right: 10px;
+    align-items: center;
+}
+
+/*  div 1 */
+
+.links {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.link {
+    margin-right: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+/*  div 2 */
+
+.authen {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.authenLogin {}
+
+.authenSignup {}
+
+.btn {
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #dedbe0;
+}
+
+.cartBox {
+    margin-right: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.cardBox:focus {
+    outline: none;
+}
+
+.cartText {
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #9e907d;
+}
+
+.cartCount {
+    background: rgb(150, 111, 183, 0.4);
+    padding: 5px;
+    font-weight: 600;
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    border-radius: 2px;
+}

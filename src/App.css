@@ -1,0 +1,8 @@
+main {
+    margin-top: 8%;
+    width: 80vw;
+    margin: 8% auto 0% auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+}

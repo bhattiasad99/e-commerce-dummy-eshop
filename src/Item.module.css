@@ -1,0 +1,101 @@
+.card {
+    width: 20rem;
+    background: white;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 2px 7px 1px #000000;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.imageContainer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 40%;
+}
+
+.headerCard {
+    border-top: 1px dotted lightgrey;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.price {
+    background: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dollar {
+    font-size: 1px;
+    font-weight: 100;
+    color: darkslategrey;
+}
+
+.amount {
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 1px;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-end;
+}
+
+.productDesc {
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: grey;
+}
+
+.productCateg {
+    font-size: 13px;
+    color: darkgoldenrod;
+    background: cornsilk;
+    padding: 3px 8px;
+    display: inline;
+    margin-top: 6px;
+    border-radius: 3px;
+}
+
+.productDesc button {
+    color: #c2a87c;
+    font-weight: 100;
+    letter-spacing: 1px;
+    background: none;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.productDesc button:focus {
+    outline: none
+}
+
+.addToCartBtn {
+    background: #FAEBD7;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
